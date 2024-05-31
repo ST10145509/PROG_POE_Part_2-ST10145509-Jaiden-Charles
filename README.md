@@ -40,7 +40,7 @@ If that does not work, i have placed the following queries to create the tables 
 i apologise for any possible inconvenience as my Azure was not working to create an online database.
 
 first right click on the app_data folder and create a database named AgriEnergyDatabase (so that it does not clash) and execute the following queries in the order that i have placed them.
-You will then paste your connection string in the webconfig next to DefaultConnection and you will be good to go.
+You will then paste your connection string in the webconfig next to DefaultConnection and you will be good to go. head to server explorer, select new query then copy, paste and execute in the order provided below.
 
 
 CREATE TABLE Roles (
