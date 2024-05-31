@@ -42,20 +42,20 @@ i apologise for any possible inconvenience as my Azure was not working to create
 first right click on the app_data folder and create a database named AgriEnergyDatabase (so that it does not clash) and execute the following queries in the order that i have placed them.
 You will then paste your connection string in the webconfig next to DefaultConnection and you will be good to go.
 
--- Roles Table
+
 CREATE TABLE Roles (
     RoleID INT PRIMARY KEY IDENTITY,
     Role VARCHAR(50)
 );
 
--- Login Table
+
 CREATE TABLE Login (
     LoginID INT PRIMARY KEY IDENTITY,
     Username VARCHAR(50),
     Password VARCHAR(max)
 );
 
--- Users Table
+
 CREATE TABLE Users (
     UserID INT PRIMARY KEY IDENTITY,
     Name VARCHAR(50),
@@ -64,7 +64,7 @@ CREATE TABLE Users (
     RoleID INT FOREIGN KEY REFERENCES Roles(RoleID)
 );
 
--- Products Table
+
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY IDENTITY,
     ProductName VARCHAR(50),
