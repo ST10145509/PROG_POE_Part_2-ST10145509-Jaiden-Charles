@@ -28,3 +28,6 @@ Login Details for 5 Employees
 - **Logout:** Users can securely log out of the application.
 
 https://github.com/ST10145509/PROG_POE_Part_2-ST10145509-Jaiden-Charles
+
+There is one farmer added as i tested the login function for the farmer.
+Username: JohnnyBoy  |    Password: johno
