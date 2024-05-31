@@ -17,13 +17,13 @@ System Functionalities and User Roles
 
 User Roles
 - Farmer: Can add products to their profile and view as well as delete their own products.
-- **Employee:** Can add new farmer profiles and view/filter products by farmer username.
+- Employee: Can add new farmer profiles and view/filter products by farmer username.
 
 Functionalities
 - Login: Secure login with role-specific access.
 - Add Product (Farmer): Farmers can add new products adn delete existing ones.
 - View My Products (Farmer): Farmers can view only the products they have added.
-- **Add Farmer (Employee): Employees can add new farmer profiles.
+- Add Farmer (Employee): Employees can add new farmer profiles.
 - View Products (Employee): Employees can view and filter products by farmer, date range, and category type.
 - Logout: Users can securely log out of the application.
 
