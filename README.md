@@ -1,5 +1,5 @@
-# PROG_POE_Part_2
-## Building and Running the Prototype
+PROG_POE_Part_2
+Building and Running the Prototype
 
 1. Clone the repository or download the source code.
 2. Open the solution file in Visual Studio.
@@ -13,19 +13,19 @@ Login Details for 5 Employees
 4. username:AgriMan       |    Password: Culture
 5. username:UsernameOne   |    Password: PasswordTwo
 
-## System Functionalities and User Roles
+System Functionalities and User Roles
 
-### User Roles
-- **Farmer:** Can add products to their profile and view as well as delete their own products.
+User Roles
+- Farmer: Can add products to their profile and view as well as delete their own products.
 - **Employee:** Can add new farmer profiles and view/filter products by farmer username.
 
-### Functionalities
-- **Login:** Secure login with role-specific access.
-- **Add Product (Farmer):** Farmers can add new products adn delete existing ones.
-- **View My Products (Farmer):** Farmers can view only the products they have added.
-- **Add Farmer (Employee):** Employees can add new farmer profiles.
-- **View Products (Employee):** Employees can view and filter products by farmer, date range, and category type.
-- **Logout:** Users can securely log out of the application.
+Functionalities
+- Login: Secure login with role-specific access.
+- Add Product (Farmer): Farmers can add new products adn delete existing ones.
+- View My Products (Farmer): Farmers can view only the products they have added.
+- **Add Farmer (Employee): Employees can add new farmer profiles.
+- View Products (Employee): Employees can view and filter products by farmer, date range, and category type.
+- Logout: Users can securely log out of the application.
 
 https://github.com/ST10145509/PROG_POE_Part_2-ST10145509-Jaiden-Charles
 
