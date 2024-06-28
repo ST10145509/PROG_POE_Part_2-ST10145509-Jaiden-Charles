@@ -32,6 +32,8 @@ https://github.com/ST10145509/PROG_POE_Part_2-ST10145509-Jaiden-Charles
 There is one farmer added as i tested the login function for the farmer.
 Username: JohnnyBoy  |    Password: johno
 
+Database issue has been fixed, let me know if any issues still occur.
+
 LATE ADDITION, therefore this may not be in the VCLEARN ReadMe file. (please read!!!!!):
 The database i have created can be found in the App_Data folder in the solution explorer. Open and paste your corresponding connection string into your webconfig file.
 
