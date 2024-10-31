@@ -22,7 +22,7 @@
             <asp:Label ID="lblUsername" runat="server" Text="Username:"></asp:Label>
             <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
             
-            <asp:Label ID="lblPasswordError" runat="server" ForeColor="Red"></asp:Label>
+            <asp:Label ID="lblPasswordError" runat="server" ForeColor="Blue"></asp:Label>
             <asp:Label ID="lblPassword" runat="server" Text="Password:"></asp:Label>
             <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
             
