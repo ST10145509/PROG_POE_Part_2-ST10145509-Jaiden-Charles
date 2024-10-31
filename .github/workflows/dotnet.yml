@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest  # Change to Windows runner
+    runs-on: windows-latest  # Use Windows runner
 
     steps:
     - uses: actions/checkout@v4
@@ -25,4 +25,5 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+
 
